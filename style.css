@@ -8,18 +8,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header styles */
 header {    
     display: flex; 
     align-items: center;
-    justify-content: space-around; 
-    padding: 10px;
+    justify-content: space-between;
+    padding: 10px 38px;
     background-color: #475d7c;
     color: white;
 }
 
+.logo {
+    margin-left: 60px;
+}
+
 .nav-list {
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    margin-right: 60px;
 }
 
 ul {
@@ -29,4 +35,44 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+/* s1 (section 1 of center div) styles */
+.s1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #475d7c;
+    color: white;
+    gap: 40px;
+    padding: 40px;
+    margin: 0;
+}
+
+.text-para-btn {
+    width: 300px;
+    height: 250px;
+}
+
+.title-text {
+    font-size: 48px;
+}
+
+.paragraph {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #3882f6;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.s1-img {
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    background-color: gray;
 }
