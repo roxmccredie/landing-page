@@ -162,7 +162,8 @@ a {
     font-size: 25px;
     font-weight: bold;
 }
-.bottom-btn {
+
+.final-btn {
     border: solid 2px;
     border-color: white;
     padding: 8px 35px;
@@ -171,4 +172,14 @@ a {
     font-size: 18px;
     color: white;
     font-weight: bold;
+}
+
+/* Footer Section */
+
+.bottom {
+    background-color: #475d7c;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
 }
