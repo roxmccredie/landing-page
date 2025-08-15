@@ -142,3 +142,33 @@ a {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* s4 (section 4 of center container) styles */
+.s4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+    margin: 100px 0;
+    padding: 60px;
+}
+
+.ft-t {
+    flex-direction: column;
+}
+
+.final-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-btn {
+    border: solid 2px;
+    border-color: white;
+    padding: 8px 35px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
